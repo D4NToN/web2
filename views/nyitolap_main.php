@@ -1,5 +1,3 @@
 <h2>
-    <br>Üdvözöljük az új rendszerünkben!<br>
-    <br>Jó munkát kívánunk a rendszerünkkel!<br>
-    <br>Kezdhet ...<br>
+    <br>Üdvözöljük a honlapon!<br>
 </h2>
