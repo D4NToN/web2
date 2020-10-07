@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="693ce4c8-dee5-4c62-b9eb-b5a57e9ea153" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/bejegyez.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/bejegyez_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/bejegyez_main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/regisztral_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/regisztral_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bejegyez_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/bejegyez_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/kilepes_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/kilepes_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/nyitolap_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nyitolap_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ujbejegyzes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ujbejegyzes_main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <workItem from="1601906084454" duration="787000" />
       <workItem from="1601974376479" duration="4565000" />
       <workItem from="1601991055732" duration="50000" />
-      <workItem from="1602063609042" duration="5930000" />
+      <workItem from="1602063609042" duration="9867000" />
     </task>
     <servers />
   </component>

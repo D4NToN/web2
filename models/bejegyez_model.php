@@ -9,6 +9,8 @@ class Bejegyez_Model
 
         try {
             $connection = Database::getConnection();
+
+
             $sql = "INSERT INTO `comments`
                 (`id`, `name`, `comment`)
                 VALUES
@@ -23,4 +25,6 @@ class Bejegyez_Model
         }
         return $retData;
     }
+
+//('', '".$vars['comment_name']."', '".$vars['comment_content']."')";
 }
