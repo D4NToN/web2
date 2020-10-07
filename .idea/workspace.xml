@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="693ce4c8-dee5-4c62-b9eb-b5a57e9ea153" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/regisztral.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/regisztral_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/regisztral_main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/bejegyez.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/bejegyez_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/bejegyez_main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/beleptet_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/beleptet_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/kilepes_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/kilepes_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/regisztracio_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/regisztracio_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/regisztral_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/regisztral_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/nyitolap_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nyitolap_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ujbejegyzes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ujbejegyzes_main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,9 @@
       <workItem from="1601897409137" duration="2668000" />
       <workItem from="1601900246120" duration="1697000" />
       <workItem from="1601906084454" duration="787000" />
+      <workItem from="1601974376479" duration="4565000" />
+      <workItem from="1601991055732" duration="50000" />
+      <workItem from="1602063609042" duration="5930000" />
     </task>
     <servers />
   </component>
@@ -105,6 +107,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601900888500" />
+    <state x="808" y="331" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602069589526">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="331" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602069589526" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602066998841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602066998841" />
     <state x="813" y="343" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1601900068349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -113,13 +123,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="878" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601899907823" />
-    <state x="790" y="226" key="NewPhpClassDialog" timestamp="1601897901067">
+    <state x="790" y="226" key="NewPhpClassDialog" timestamp="1602069615658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="790" y="226" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601897901067" />
-    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1601897787526">
+    <state x="790" y="226" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602069615658" />
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1602069949291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601897787526" />
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602069949291" />
   </component>
 </project>

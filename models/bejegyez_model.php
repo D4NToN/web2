@@ -1,6 +1,7 @@
 <?php
 
-class Regisztral_Model
+
+class Bejegyez_Model
 {
     public function get_data($vars)
     {
@@ -8,20 +9,18 @@ class Regisztral_Model
 
         try {
             $connection = Database::getConnection();
-            $sql = "INSERT INTO `felhasznalok` 
-                (`id`, `csaladi_nev`, `utonev`, `bejelentkezes`, `jelszo`, `jogosultsag`) 
+            $sql = "INSERT INTO `comments`
+                (`id`, `name`, `comment`)
                 VALUES
-                ('DEFAULT', 'NULL', 'NULL', '".$vars['login']."', '".sha1($vars['password'])."', '_1_')";
+                ('', '".$vars['comment_name']."', '".$vars['comment_content']."')";
             $stmt = $connection->query($sql);
 
-            $retData['uzenet'] = "Sikeres regisztráció!";
+            $retData['uzenet'] = "Sikeres bejegyzés!";
         }
-        catch (PDOException $e) {
+        catch (PDOException $e){
             $retData['eredmény'] = "ERROR";
             $retData['uzenet'] = "Adatbázis hiba: ".$e->getMessage()."!";
         }
         return $retData;
     }
 }
-
-?>
