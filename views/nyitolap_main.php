@@ -1,9 +1,8 @@
-<head>
-    <meta http-equiv="refresh" content="5">
-</head>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
-    
+    setTimeout(() => {
+        window.location.reload(true);
+    }, 5000);
 </script>
 <div id="div_refresh">
 

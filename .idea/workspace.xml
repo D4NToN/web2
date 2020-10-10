@@ -20,26 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="693ce4c8-dee5-4c62-b9eb-b5a57e9ea153" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/rest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/soap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/changelog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.nusoap_base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.soap_fault.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.soap_parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.soap_server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.soap_transport_http.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.soap_val.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.soapclient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.wsdl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.wsdlcache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/class.xmlschema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/nusoap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/nusoapmime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/rest_main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/soap_main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/127_0_0_1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/regisztral_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/regisztral_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/nyitolap_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nyitolap_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/regisztracio_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/regisztracio_main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +76,8 @@
       <workItem from="1601991055732" duration="50000" />
       <workItem from="1602063609042" duration="9867000" />
       <workItem from="1602234490317" duration="7018000" />
+      <workItem from="1602251525067" duration="830000" />
+      <workItem from="1602322598960" duration="1330000" />
     </task>
     <servers />
   </component>
@@ -145,5 +132,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602240567107" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602322634644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602322634644" />
   </component>
 </project>
