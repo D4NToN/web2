@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 09, 2020 at 04:08 PM
+-- Generation Time: Oct 10, 2020 at 12:32 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.8
 
@@ -180,7 +180,7 @@ CREATE TABLE `pma__recent` (
 --
 
 INSERT INTO `pma__recent` (`username`, `tables`) VALUES
-('root', '[{\"db\":\"web2\",\"table\":\"comments\"},{\"db\":\"web2\",\"table\":\"felhasznalok\"},{\"db\":\"web2\",\"table\":\"menu\"},{\"db\":\"mszk_db\",\"table\":\"roles\"},{\"db\":\"mszk_db\",\"table\":\"role_user\"},{\"db\":\"mszk_db\",\"table\":\"users\"},{\"db\":\"mszk_db\",\"table\":\"failed_jobs\"},{\"db\":\"mszk_db\",\"table\":\"migrations\"},{\"db\":\"mszk_db\",\"table\":\"password_resets\"},{\"db\":\"mysql\",\"table\":\"time_zone_transition\"}]');
+('root', '[{\"db\":\"web2\",\"table\":\"menu\"},{\"db\":\"web2\",\"table\":\"felhasznalok\"},{\"db\":\"web2\",\"table\":\"comments\"},{\"db\":\"mszk_db\",\"table\":\"roles\"},{\"db\":\"mszk_db\",\"table\":\"role_user\"},{\"db\":\"mszk_db\",\"table\":\"users\"},{\"db\":\"mszk_db\",\"table\":\"failed_jobs\"},{\"db\":\"mszk_db\",\"table\":\"migrations\"},{\"db\":\"mszk_db\",\"table\":\"password_resets\"},{\"db\":\"mysql\",\"table\":\"time_zone_transition\"}]');
 
 -- --------------------------------------------------------
 
@@ -256,7 +256,7 @@ CREATE TABLE `pma__table_uiprefs` (
 --
 
 INSERT INTO `pma__table_uiprefs` (`username`, `db_name`, `table_name`, `prefs`, `last_update`) VALUES
-('root', 'web2', 'felhasznalok', '{\"CREATE_TIME\":\"2020-10-03 09:34:20\",\"col_order\":[0,1,2,3,4,5],\"col_visib\":[1,1,1,1,1,1],\"sorted_col\":\"`felhasznalok`.`id` ASC\"}', '2020-10-07 12:22:55');
+('root', 'web2', 'felhasznalok', '{\"CREATE_TIME\":\"2020-10-03 09:34:20\",\"col_order\":[0,1,2,3,4,5],\"col_visib\":[1,1,1,1,1,1],\"sorted_col\":\"`id` ASC\"}', '2020-10-10 10:24:35');
 
 -- --------------------------------------------------------
 
@@ -294,7 +294,7 @@ CREATE TABLE `pma__userconfig` (
 --
 
 INSERT INTO `pma__userconfig` (`username`, `timevalue`, `config_data`) VALUES
-('root', '2020-10-09 14:06:02', '{\"Console\\/Mode\":\"collapse\"}');
+('root', '2020-10-10 10:25:52', '{\"Console\\/Mode\":\"collapse\"}');
 
 -- --------------------------------------------------------
 
@@ -496,10 +496,18 @@ USE `web2`;
 
 CREATE TABLE `comments` (
   `id` int(11) NOT NULL,
-  `name` varchar(100) NOT NULL,
+  `last_name` varchar(100) NOT NULL,
+  `first_name` varchar(100) NOT NULL,
   `comment` varchar(100) NOT NULL,
   `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `comments`
+--
+
+INSERT INTO `comments` (`id`, `last_name`, `first_name`, `comment`, `date`) VALUES
+(41, 'Majoros', 'Erzsébet', 'Nagyon elégedett vagyok Malvina munkájával. Bátran ajánlom majd minden ismerősömnek.', '2020-10-10 10:29:14');
 
 -- --------------------------------------------------------
 
@@ -531,7 +539,7 @@ INSERT INTO `felhasznalok` (`id`, `csaladi_nev`, `utonev`, `bejelentkezes`, `jel
 (8, 'Családi_8', 'Utónév_8', 'Login8', '3a340fe3599746234ef89591e372d4dd8b590053', '_1_'),
 (9, 'Családi_9', 'Utónév_9', 'Login9', 'c0298f7d314ecbc5651da5679a0a240833a88238', '_1_'),
 (10, 'Családi_10', 'Utónév_10', 'Login10', 'a477427c183664b57f977661ac3167b64823f366', '_1_'),
-(16, 'NULL', 'NULL', 'jenci', 'd033e22ae348aeb5660fc2140aec35850c4da997', '_1_');
+(18, 'Majoros', 'Erzsébet', 'Erzsike', 'd033e22ae348aeb5660fc2140aec35850c4da997', '_1_');
 
 -- --------------------------------------------------------
 
@@ -553,14 +561,10 @@ CREATE TABLE `menu` (
 
 INSERT INTO `menu` (`url`, `nev`, `szulo`, `jogosultsag`, `sorrend`) VALUES
 ('admin', 'Admin', '', '001', 80),
-('alapinfok', 'Alapinfók', 'elerhetoseg', '111', 40),
 ('arak', 'Árak', 'szolgaltatasok', '111', 16),
 ('belepes', 'Belépés', '', '100', 60),
-('elerhetoseg', 'Elérhetőség', '', '111', 20),
-('kiegeszitesek', 'Kiegészítések', 'elerhetoseg', '011', 50),
 ('kilepes', 'Kilépés', '', '011', 96),
 ('kontakt', 'Kontakt', '', '111', 85),
-('linkek', 'Linkek', '', '100', 30),
 ('nyitolap', 'Nyitólap', '', '111', 10),
 ('regisztracio', 'Regisztráció', '', '111', 90),
 ('szolgaltatasok', 'Szolgáltatások', '', '111', 15),
@@ -596,13 +600,13 @@ ALTER TABLE `menu`
 -- AUTO_INCREMENT for table `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
 -- AUTO_INCREMENT for table `felhasznalok`
 --
 ALTER TABLE `felhasznalok`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
