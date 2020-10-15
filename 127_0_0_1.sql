@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 10, 2020 at 12:32 PM
+-- Generation Time: Oct 15, 2020 at 01:42 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.8
 
@@ -180,7 +180,7 @@ CREATE TABLE `pma__recent` (
 --
 
 INSERT INTO `pma__recent` (`username`, `tables`) VALUES
-('root', '[{\"db\":\"web2\",\"table\":\"menu\"},{\"db\":\"web2\",\"table\":\"felhasznalok\"},{\"db\":\"web2\",\"table\":\"comments\"},{\"db\":\"mszk_db\",\"table\":\"roles\"},{\"db\":\"mszk_db\",\"table\":\"role_user\"},{\"db\":\"mszk_db\",\"table\":\"users\"},{\"db\":\"mszk_db\",\"table\":\"failed_jobs\"},{\"db\":\"mszk_db\",\"table\":\"migrations\"},{\"db\":\"mszk_db\",\"table\":\"password_resets\"},{\"db\":\"mysql\",\"table\":\"time_zone_transition\"}]');
+('root', '[{\"db\":\"web2\",\"table\":\"comments\"},{\"db\":\"web2\",\"table\":\"felhasznalok\"},{\"db\":\"web2\",\"table\":\"menu\"},{\"db\":\"mszk_db\",\"table\":\"roles\"},{\"db\":\"mszk_db\",\"table\":\"role_user\"},{\"db\":\"mszk_db\",\"table\":\"users\"},{\"db\":\"mszk_db\",\"table\":\"failed_jobs\"},{\"db\":\"mszk_db\",\"table\":\"migrations\"},{\"db\":\"mszk_db\",\"table\":\"password_resets\"},{\"db\":\"mysql\",\"table\":\"time_zone_transition\"}]');
 
 -- --------------------------------------------------------
 
@@ -294,7 +294,7 @@ CREATE TABLE `pma__userconfig` (
 --
 
 INSERT INTO `pma__userconfig` (`username`, `timevalue`, `config_data`) VALUES
-('root', '2020-10-10 10:25:52', '{\"Console\\/Mode\":\"collapse\"}');
+('root', '2020-10-15 11:42:08', '{\"Console\\/Mode\":\"collapse\"}');
 
 -- --------------------------------------------------------
 
@@ -600,7 +600,7 @@ ALTER TABLE `menu`
 -- AUTO_INCREMENT for table `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
 --
 -- AUTO_INCREMENT for table `felhasznalok`
