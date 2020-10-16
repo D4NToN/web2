@@ -20,39 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="693ce4c8-dee5-4c62-b9eb-b5a57e9ea153" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/bejegyez.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/bejegyez.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/belepes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/belepes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/beleptet.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/beleptet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/error404.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/error404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/kilepes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/kilepes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/kontakt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/nyitolap.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/nyitolap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/regisztracio.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/regisztracio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/regisztral.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/regisztral.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/rest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/soap.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/soap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/szolgaltatasok.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/szolgaltatasok.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/szolgaltatasok_arak.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/szolgaltatasok_arak.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ujbejegyzes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ujbejegyzes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/changelog" beforeDir="false" afterPath="$PROJECT_DIR$/lib/changelog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bejegyez_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/bejegyez_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/beleptet_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/beleptet_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/kilepes_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/kilepes_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/regisztral_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/regisztral_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/belepes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/belepes_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error404_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/error404_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/kilepes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/kilepes_main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/komment_betoltes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/komment_betoltes_main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/nyitolap_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nyitolap_main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/page_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/page_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/regisztracio_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/regisztracio_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ujbejegyzes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ujbejegyzes_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/szolgaltatasok_arak_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/szolgaltatasok_arak_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/szolgaltatasok_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/szolgaltatasok_main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +86,9 @@
       <workItem from="1602848068752" duration="52000" />
       <workItem from="1602848768682" duration="481000" />
       <workItem from="1602849583680" duration="438000" />
+      <workItem from="1602850716608" duration="59000" />
+      <workItem from="1602851931395" duration="622000" />
+      <workItem from="1602852808706" duration="105000" />
     </task>
     <servers />
   </component>
