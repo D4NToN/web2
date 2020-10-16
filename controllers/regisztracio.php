@@ -2,10 +2,10 @@
 
 class Regisztracio_Controller
 {
-    public $baseName = 'regisztracio';  //meghatÃ¡rozni, hogy melyik oldalon vagyunk
-    public function main(array $vars) // a router Ã¡ltal tovÃ¡bbÃ­tott paramÃ©tereket kapja
+    public $baseName = 'regisztracio';  //meghatározni, hogy melyik oldalon vagyunk
+    public function main(array $vars) // a router által továbbított paramétereket kapja
     {
-        //betÃ¶ltjÃ¼k a nÃ©zetet
+        //betöltjük a nézetet
         $view = new View_Loader($this->baseName."_main");
     }
 }

@@ -9,8 +9,8 @@ if(! isset($_SESSION['userlevel'])) $_SESSION['userlevel'] = "1__";
 include(SERVER_ROOT . 'includes/database.inc.php');
 include(SERVER_ROOT . 'includes/menu.inc.php');
 
-// Felbontjuk a paramÃ©tereket. Az & elvÃ¡lasztÃ³ jellel vÃ©gzett felbontÃ¡s
-// megfelelÅ‘ lesz, elsÅ‘ eleme a megtekinteni kÃ­vÃ¡nt oldal neve.
+// Felbontjuk a paramétereket. Az & elválasztó jellel végzett felbontás
+// megfelelõ lesz, elsõ eleme a megtekinteni kívánt oldal neve.
 
 $page = "nyitolap";
 $subpage = "";
@@ -21,29 +21,29 @@ $request = $_SERVER['QUERY_STRING'];
 if($request != "")
 {
 	$params = explode('/', $request);
-	$page = array_shift($params); // a kÃ©rt oldal neve
+	$page = array_shift($params); // a kért oldal neve
 	
-	if(array_key_exists($page, Menu::$menu) && count($params)>0) // Az oldal egy menÃ¼pont oldala Ã©s van mÃ©g adat az url-ben
+	if(array_key_exists($page, Menu::$menu) && count($params)>0) // Az oldal egy menüpont oldala és van még adat az url-ben
 	{
-		$subpage = array_shift($params); // a kÃ©rt aloldal
+		$subpage = array_shift($params); // a kért aloldal
 		if(! (array_key_exists($subpage, Menu::$menu) && Menu::$menu[$subpage][1] == $page)) // ha nem egy alolal
 		{
 			$vars[] = $subpage; // akkor ez egy parameter
-			$subpage = ""; // Ã©s nincs aloldal
+			$subpage = ""; // és nincs aloldal
 		}
 		
 	}
 	$vars += $_POST;
 	
-	foreach($params as $p) // a paramÃ©terek tÃ¶mbje feltÃ¶ltÃ©se
+	foreach($params as $p) // a paraméterek tömbje feltöltése
 	{
 		$vars[] = $p;
 	}
 }
 
-// MeghatÃ¡rozzuk a kÃ©rt oldalhoz tartozÃ³ vezÃ©rlÅ‘t. Ha megtalÃ¡ltuk
-// a fÃ¡jlt Ã©s a hozzÃ¡ tartozÃ³ vezÃ©rlÅ‘ oldalt is, akkor betÃ¶ltjÃ¼k az
-// elÅ‘bbiekben lekÃ©rdezett paramÃ©tereket tovÃ¡bbadva. 
+// Meghatározzuk a kért oldalhoz tartozó vezérlõt. Ha megtaláltuk
+// a fájlt és a hozzá tartozó vezérlõ oldalt is, akkor betöltjük az
+// elõbbiekben lekérdezett paramétereket továbbadva. 
 
 $controllerfile = $page.($subpage != "" ? "_".$subpage : "");
 $target = SERVER_ROOT.'controllers/'.$controllerfile.'.php';
@@ -62,10 +62,10 @@ else
 
 $controller->main($vars);
 
-// __autoload fÃ¼ggvÃ©ny, amely ismeretlen osztÃ¡ly hÃ­vÃ¡sokkor,
-// megprÃ³bÃ¡lja automatikusan betÃ¶lteni a megfelelÅ‘ fÃ¡jlt. 
-// A modellekhez hasznÃ¡ljuk, egysÃ©gesen nevezzÃ¼k el fÃ¡jljainkat
-// (osztÃ¡ly nevÃ©vel megegyezÅ‘, csupa kisbetÅ±s .php)
+// __autoload függvény, amely ismeretlen osztály hívásokkor,
+// megpróbálja automatikusan betölteni a megfelelõ fájlt. 
+// A modellekhez használjuk, egységesen nevezzük el fájljainkat
+// (osztály nevével megegyezõ, csupa kisbetûs .php)
 
 function __autoload($className)
 {

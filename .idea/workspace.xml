@@ -38,10 +38,20 @@
       <change beforePath="$PROJECT_DIR$/controllers/szolgaltatasok_arak.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/szolgaltatasok_arak.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/ujbejegyzes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ujbejegyzes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/changelog" beforeDir="false" afterPath="$PROJECT_DIR$/lib/changelog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/bejegyez_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/bejegyez_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/beleptet_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/beleptet_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/kilepes_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/kilepes_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/regisztral_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/regisztral_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/belepes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/belepes_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error404_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/error404_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/kilepes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/kilepes_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/komment_betoltes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/komment_betoltes_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/nyitolap_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nyitolap_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/page_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/page_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/regisztracio_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/regisztracio_main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/ujbejegyzes_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ujbejegyzes_main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +110,9 @@
       <workItem from="1602757444849" duration="3663000" />
       <workItem from="1602843884354" duration="2604000" />
       <workItem from="1602846801256" duration="497000" />
+      <workItem from="1602848068752" duration="52000" />
+      <workItem from="1602848768682" duration="481000" />
+      <workItem from="1602849583680" duration="438000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,8 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+
 <?php
     $aVar = mysqli_connect('localhost','web2bead','T0mc4t','web2bead');
     $sql = mysqli_query($aVar, "SELECT * FROM comments");
@@ -18,3 +23,5 @@
     }
 
 ?>
+
+</html>

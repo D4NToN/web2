@@ -4,8 +4,8 @@ class Kilepes_Model
 {
 	public function get_data()
 	{
-		$retData['eredm√©ny'] = "OK";
-		$retData['uzenet'] = "Visszontl√°t√°sra!";
+		$retData['eredmÈny'] = "OK";
+		$retData['uzenet'] = "Visszontl·t·sra!";
 		$_SESSION['userid'] =  0;
 		$_SESSION['userlastname'] =  "";
 		$_SESSION['userfirstname'] =  "";

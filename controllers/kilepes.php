@@ -2,15 +2,15 @@
 
 class Kilepes_Controller
 {
-	public $baseName = 'kilepes';  //meghatÃ¡rozni, hogy melyik oldalon vagyunk
-	public function main(array $vars) // a router Ã¡ltal tovÃ¡bbÃ­tott paramÃ©tereket kapja
+	public $baseName = 'kilepes';  //meghatározni, hogy melyik oldalon vagyunk
+	public function main(array $vars) // a router által továbbított paramétereket kapja
 	{
-		$kilepesModel = new Kilepes_Model;  //az osztÃ¡lyhoz tartozÃ³ modell
-		//a modellben belÃ©pteti a felhasznÃ¡lÃ³t
+		$kilepesModel = new Kilepes_Model;  //az osztályhoz tartozó modell
+		//a modellben belépteti a felhasználót
 		$retData = $kilepesModel->get_data(); 
-		//betÃ¶ltjÃ¼k a nÃ©zetet
+		//betöltjük a nézetet
 		$view = new View_Loader($this->baseName.'_main');
-		//Ã¡tadjuk a lekÃ©rdezett adatokat a nÃ©zetnek
+		//átadjuk a lekérdezett adatokat a nézetnek
 		foreach($retData as $name => $value)
 			$view->assign($name, $value);
 	}

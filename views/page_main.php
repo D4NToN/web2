@@ -2,24 +2,24 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Malvina sz√©ps√©gkuck√≥ja</title>
+        <title>Malvina szÈpsÈgkuckÛja</title>
         <link rel="stylesheet" type="text/css" href="<?php echo SITE_ROOT?>css/main_style.css">
         <?php if($viewData['style']) echo '<link rel="stylesheet" type="text/css" href="'.$viewData['style'].'">'; ?>
     </head>
     <body>
         <header>
             <div id="user"><em><?= $_SESSION['userlastname']." ".$_SESSION['userfirstname'] ?></em></div>
-            <h1 class="header">Malvina sz√©ps√©gkuck√≥ja</h1>
+            <h1 class="header">Malvina szÈpsÈgkuckÛja</h1>
         </header>
         <nav>
             <?php echo Menu::getMenu($viewData['selectedItems']); ?>
         </nav>
         <aside>
-                <p>"Minden n≈ë vonz√≥, aki mag√°val szemben ig√©nyes." <br><br> - Vastag Tam√°s</p>
+                <p>"Minden nı vonzÛ, aki mag·val szemben igÈnyes." <br><br> - Vastag Tam·s</p>
         </aside>
         <section>
             <?php if($viewData['render']) include($viewData['render']); ?>
         </section>
-        <footer>&copy; D√°niel Benk≈ë <?= date("Y") ?></footer>
+        <footer>&copy; D·niel Benkı <?= date("Y") ?></footer>
     </body>
 </html>

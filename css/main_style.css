@@ -24,7 +24,7 @@ section {
 }
 ul {
     float:left;
-    width:100%; /* A menÃ¼ az alatta levÅ‘ szÃ¶vegtÅ‘l elvÃ¡lik, birtokolja a teljes vÃ­zszintes sÃ¡vjÃ¡t. */
+    width:100%; /* A menü az alatta levõ szövegtõl elválik, birtokolja a teljes vízszintes sávját. */
     padding:0;
     margin:0;
     list-style-type:none;
@@ -32,8 +32,8 @@ ul {
 }        
 a {
     float:left;
-    width:6em; /* Fix szÃ©lessÃ©gÅ± gombok Ã©rhetÅ‘k el. Ã‰rdemes azonban vigyÃ¡zni ezzel a mÃ³dszerrel, mert ha a szÃ¶veg nem fÃ©r ki, a dizÃ¡jn szÃ©tesik. */
-    text-decoration:none; /* Ne legyen alÃ¡hÃºzva a link. */
+    width:6em; /* Fix szélességû gombok érhetõk el. Érdemes azonban vigyázni ezzel a módszerrel, mert ha a szöveg nem fér ki, a dizájn szétesik. */
+    text-decoration:none; /* Ne legyen aláhúzva a link. */
     color:white;
     background-color:navy;
     padding:0.2em 0.6em;
@@ -42,5 +42,5 @@ a {
 a.selected{
     background-color: blue;
 }
-a:hover { background-color:#ff3300} /* Az egÃ©rkurzorra szÃ­nvÃ¡ltÃ¡ssal reagÃ¡l a menÃ¼pont. */
-li { display:inline } /* Ez a sor oldja meg, hogy a menÃ¼pontok egymÃ¡s mellÃ© kerÃ¼ljenek. */
+a:hover { background-color:#ff3300} /* Az egérkurzorra színváltással reagál a menüpont. */
+li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */

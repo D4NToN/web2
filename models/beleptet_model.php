@@ -13,11 +13,11 @@ class Beleptet_Model
 			switch(count($felhasznalo)) {
 				case 0:
 					$retData['eredmeny'] = "ERROR";
-					$retData['uzenet'] = "Helytelen felhasznÃ¡lÃ³i nÃ©v-jelszÃ³ pÃ¡r!";
+					$retData['uzenet'] = "Helytelen felhasználói név-jelszó pár!";
 					break;
 				case 1:
-					$retData['eredmÃ©ny'] = "OK";
-					$retData['uzenet'] = "ÃœdvÃ¶zÃ¶ljÃ¼k!";
+					$retData['eredmény'] = "OK";
+					$retData['uzenet'] = "Üdvözöljük!";
 					$_SESSION['userid'] =  $felhasznalo[0]['id'];
 					$_SESSION['userlastname'] =  $felhasznalo[0]['csaladi_nev'];
 					$_SESSION['userfirstname'] =  $felhasznalo[0]['utonev'];
@@ -25,13 +25,13 @@ class Beleptet_Model
 					Menu::setMenu();
 					break;
 				default:
-					$retData['eredmÃ©ny'] = "ERROR";
-					$retData['uzenet'] = "TÃ¶bb felhasznÃ¡lÃ³t talÃ¡ltunk a megadott felhasznÃ¡lÃ³i nÃ©v -jelszÃ³ pÃ¡rral!";
+					$retData['eredmény'] = "ERROR";
+					$retData['uzenet'] = "Több felhasználót találtunk a megadott felhasználói név -jelszó párral!";
 			}
 		}
 		catch (PDOException $e) {
-					$retData['eredmÃ©ny'] = "ERROR";
-					$retData['uzenet'] = "AdatbÃ¡zis hiba: ".$e->getMessage()."!";
+					$retData['eredmény'] = "ERROR";
+					$retData['uzenet'] = "Adatbázis hiba: ".$e->getMessage()."!";
 		}
 		return $retData;
 	}

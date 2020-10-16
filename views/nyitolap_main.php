@@ -1,3 +1,6 @@
+<head>
+    <meta charset="utf-8">
+</head>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
     $(document).ready(function () {
@@ -8,7 +11,7 @@
         $("#div_refresh").load("views/komment_betoltes_main.php");
     }, 1000);
 </script>
-<h3>BejegyzÃ©sek:</h3>
+<h3>Bejegyzések:</h3>
 <div id="div_refresh">
 
 </div>

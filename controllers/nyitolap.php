@@ -2,10 +2,10 @@
 
 class Nyitolap_Controller
 {
-	public $baseName = 'nyitolap';  //meghatÃ¡rozni, hogy melyik oldalon vagyunk
-	public function main(array $vars) // a router Ã¡ltal tovÃ¡bbÃ­tott paramÃ©tereket kapja
+	public $baseName = 'nyitolap';  //meghatározni, hogy melyik oldalon vagyunk
+	public function main(array $vars) // a router által továbbított paramétereket kapja
 	{
-		//betÃ¶ltjÃ¼k a nÃ©zetet
+		//betöltjük a nézetet
 		$view = new View_Loader($this->baseName."_main");
 	}
 }

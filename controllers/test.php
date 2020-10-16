@@ -2,16 +2,16 @@
 
 class Test_Controller
 {
-	public $baseName = 'test';  //meghatÃ¡rozni, hogy melyik oldalon vagyunk
-	public function main(array $vars) // a router Ã¡ltal tovÃ¡bbÃ­tott paramÃ©tereket kapja
+	public $baseName = 'test';  //meghatározni, hogy melyik oldalon vagyunk
+	public function main(array $vars) // a router által továbbított paramétereket kapja
 	{
-		$testModel = new Test_Model;  //az osztÃ¡lyhoz tartozÃ³ modell
-		//modellbÅ‘l lekÃ©rdezzÃ¼k a kÃ©rt adatot
+		$testModel = new Test_Model;  //az osztályhoz tartozó modell
+		//modellbõl lekérdezzük a kért adatot
 		if(! isset($vars[0])) $vars[0] = "";
 		$reqData = $testModel->get_data($vars[0]); 
-		//betÃ¶ltjÃ¼k a nÃ©zetet
+		//betöltjük a nézetet
 		$view = new View_Loader($this->baseName.'_main');
-		//Ã¡tadjuk a lekÃ©rdezett adatokat a nÃ©zetnek
+		//átadjuk a lekérdezett adatokat a nézetnek
 		$view->assign('title', $reqData['title']);
 		$view->assign('content', $reqData['content']);
 	}
