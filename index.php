@@ -1,18 +1,18 @@
 <?php
 
-//alkalmazás gyökér könyvtára a szerveren
+//alkalmazÃ¡s gyÃ¶kÃ©r kÃ¶nyvtÃ¡ra a szerveren
 define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].'/');
 /*
  * define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].'/web2/');
  */
 
-//URL cím az alkalmazás gyökeréhez
+//URL cÃ­m az alkalmazÃ¡s gyÃ¶kerÃ©hez
 define('SITE_ROOT', 'http://malvinaszepsegkucko.testhosting.hu/');
 /*
  * define('SITE_ROOT', 'http://malvinaszepsegkucko.testhosting.hu/web2/');
  */
 
-// a router.php vezérlõ betöltése
+// a router.php vezÃ©rlÅ‘ betÃ¶ltÃ©se
 require_once(SERVER_ROOT . 'controllers/' . 'router.php');
 
 ?>

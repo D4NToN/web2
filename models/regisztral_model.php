@@ -14,11 +14,11 @@ class Regisztral_Model
                 ('DEFAULT', '".$vars['lastName']."', '".$vars['firstName']."', '".$vars['login']."', '".sha1($vars['password'])."', '_1_')";
             $stmt = $connection->query($sql);
 
-            $retData['uzenet'] = "Sikeres regisztráció!";
+            $retData['uzenet'] = "Sikeres regisztrÃ¡ciÃ³!";
         }
         catch (PDOException $e) {
-            $retData['eredmény'] = "ERROR";
-            $retData['uzenet'] = "Adatbázis hiba: ".$e->getMessage()."!";
+            $retData['eredmÃ©ny'] = "ERROR";
+            $retData['uzenet'] = "AdatbÃ¡zis hiba: ".$e->getMessage()."!";
         }
         return $retData;
     }

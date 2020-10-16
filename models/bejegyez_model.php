@@ -19,11 +19,11 @@ class Bejegyez_Model
                 ('', '$userLastName', '$userFirstName', '".$vars['comment_content']."')";
             $stmt = $connection->query($sql);
 
-            $retData['uzenet'] = "Sikeres bejegyzés!";
+            $retData['uzenet'] = "Sikeres bejegyzÃ©s!";
         }
         catch (PDOException $e){
-            $retData['eredmény'] = "ERROR";
-            $retData['uzenet'] = "Adatbázis hiba: ".$e->getMessage()."!";
+            $retData['eredmÃ©ny'] = "ERROR";
+            $retData['uzenet'] = "AdatbÃ¡zis hiba: ".$e->getMessage()."!";
         }
         return $retData;
     }

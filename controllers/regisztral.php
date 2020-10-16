@@ -2,17 +2,17 @@
 
 class Regisztral_Controller
 {
-    public $baseName = 'regisztral';  //meghatározni, hogy melyik oldalon vagyunk
-    public function main(array $vars) // a router által továbbított paramétereket kapja
+    public $baseName = 'regisztral';  //meghatÃ¡rozni, hogy melyik oldalon vagyunk
+    public function main(array $vars) // a router Ã¡ltal tovÃ¡bbÃ­tott paramÃ©tereket kapja
     {
-        $regisztralModel = new regisztral_Model;  //az osztályhoz tartozó modell
-        //a modellben belépteti a felhasználót
+        $regisztralModel = new regisztral_Model;  //az osztÃ¡lyhoz tartozÃ³ modell
+        //a modellben belÃ©pteti a felhasznÃ¡lÃ³t
         $retData = $regisztralModel->get_data($vars);
         if($retData['eredmeny'] == "ERROR")
             $this->baseName = "regisztracio";
-        //betöltjük a nézetet
+        //betÃ¶ltjÃ¼k a nÃ©zetet
         $view = new View_Loader($this->baseName.'_main');
-        //átadjuk a lekérdezett adatokat a nézetnek
+        //Ã¡tadjuk a lekÃ©rdezett adatokat a nÃ©zetnek
         foreach($retData as $name => $value)
             $view->assign($name, $value);
     }
