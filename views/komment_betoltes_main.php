@@ -1,5 +1,5 @@
 <?php
-    $aVar = mysqli_connect('localhost','root','','web2');
+    $aVar = mysqli_connect('localhost','web2bead','T0mc4t','web2bead');
     $sql = mysqli_query($aVar, "SELECT * FROM comments");
 
     while ($row = mysqli_fetch_assoc($sql))
